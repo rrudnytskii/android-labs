@@ -1,6 +1,6 @@
 package com.android.rrudnytskii.laboratorywork1;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainDisplay extends AppCompatActivity {

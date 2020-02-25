@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,41 +9,45 @@
 
     <TextView
             style="@style/StudentName"
-            android:layout_width="186dp"
-            android:layout_height="36dp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
             android:text="@string/surname"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.294" android:textStyle="bold"
-            tools:textColorHighlight="@android:color/holo_blue_dark"
+            android:textStyle="bold"
             android:textColorHighlight="@android:color/holo_red_dark" android:id="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.58"/>
-    <ImageView android:layout_width="52dp"
-               android:layout_height="46dp"
+            android:fontFamily="monospace" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.304"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+    />
+    <ImageView android:layout_width="86dp"
+               android:layout_height="62dp"
                android:src="@drawable/gerb"
                app:layout_constraintBottom_toBottomOf="parent"
                app:layout_constraintLeft_toLeftOf="parent"
                app:layout_constraintRight_toRightOf="parent"
                app:layout_constraintTop_toTopOf="parent"
-               android:contentDescription="Country flag"
-               app:layout_constraintHorizontal_bias="0.977" app:layout_constraintVertical_bias="0.002"/>
-    <ImageView android:layout_width="55dp"
-               android:layout_height="46dp"
+               android:contentDescription="Country blazon"
+               app:layout_constraintVertical_bias="0.00999999" app:layout_constraintHorizontal_bias="1.0"/>
+    <ImageView android:layout_width="70dp"
+               android:layout_height="65dp"
                android:src="@drawable/flag"
                app:layout_constraintBottom_toBottomOf="parent"
                app:layout_constraintLeft_toLeftOf="parent"
                app:layout_constraintRight_toRightOf="parent"
                app:layout_constraintTop_toTopOf="parent"
                android:contentDescription="Country flag"
-               app:layout_constraintHorizontal_bias="0.76" app:layout_constraintVertical_bias="0.002"/>
-    <View android:layout_width="227dp"
-          android:layout_height="81dp"
-          android:background="@drawable/rounded"
+               app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+    <View android:layout_width="130dp"
+          android:layout_height="130dp"
+          android:background="@drawable/circle"
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintLeft_toLeftOf="parent"
           app:layout_constraintRight_toRightOf="parent"
           app:layout_constraintTop_toTopOf="parent"
-          app:layout_constraintHorizontal_bias="0.616" app:layout_constraintVertical_bias="0.604"/>
-</android.support.constraint.ConstraintLayout>
+          android:visibility="visible" app:layout_constraintVertical_bias="0.767"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
