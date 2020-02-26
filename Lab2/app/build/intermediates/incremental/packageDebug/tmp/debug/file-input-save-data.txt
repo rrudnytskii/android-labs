@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 26 12:13:36 EET 2020
+#Wed Feb 26 12:57:45 EET 2020
 0.baseType=DIRECTORY
 0.base=/home/taras/Documents/android-labs/Lab2/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex
