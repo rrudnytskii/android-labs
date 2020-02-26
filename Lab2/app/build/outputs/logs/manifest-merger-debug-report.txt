@@ -1,0 +1,70 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/taras/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9be75a5b2a42482c149e21b4656b4c8b/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:3:11-49
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/taras/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9be75a5b2a42482c149e21b4656b4c8b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/taras/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9be75a5b2a42482c149e21b4656b4c8b/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:11:13-44
+activity#com.android.rrudnytskii.lab2.MainActivity
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/taras/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9be75a5b2a42482c149e21b4656b4c8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/taras/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9be75a5b2a42482c149e21b4656b4c8b/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		ADDED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/taras/Documents/android-labs/Lab2/app/src/main/AndroidManifest.xml
